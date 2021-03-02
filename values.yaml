@@ -1,7 +1,7 @@
 datadog:
   #apiKey: <DATADOG_API_KEY>
   #apiKeyExistingSecret:  # <DATADOG_API_KEY_SECRET>
-  clusterName: datadog
+  clusterName: pe
   orchestratorExplorer:
     enabled: true
   securityAgent:
