@@ -1,7 +1,7 @@
 datadog:
   #apiKey: <DATADOG_API_KEY>
   #apiKeyExistingSecret:  # <DATADOG_API_KEY_SECRET>
-  clusterName: pe
+  clusterName: car
   orchestratorExplorer:
     enabled: true
   securityAgent:
@@ -34,7 +34,7 @@ datadog:
     useHostPort: true
   env:
     - name: DD_ENV
-      value: "prod"
+      value: "qa"
 agents:
   enabled: true
   image:
@@ -51,7 +51,7 @@ clusterAgent:
     create: true
   env:
     - name: DD_ENV
-      value: "prod"
+      value: "qa"
   confd:
     kube_controller_manager.yaml: |-
       cluster_check: true
