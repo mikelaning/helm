@@ -39,7 +39,7 @@ agents:
   enabled: true
   image:
     name: agent
-    tag: 7-jmx
+    tag: 7.27.0
   rbac:
     create: true
 clusterAgent:
